@@ -9,7 +9,7 @@ const peliculaRoutes = require('./routes/PeliculaRoutes')
 const app = express()
 const PORT = process.env.PORT || 3000 //Puerto de la App
 
-//Actualización - Permisos cors
+//Actualización - Permisos corsS
 app.use(cors({
   origin: '*',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
